@@ -45,6 +45,10 @@ TextureImporter:
     21300080: animation_panda_sprite_sheet_45
     21300082: animation_panda_sprite_sheet_46
     21300084: animation_panda_sprite_sheet_47
+    21300086: animation_panda_sprite_sheet_39
+    21300088: animation_panda_sprite_sheet_40
+    21300090: animation_panda_sprite_sheet_41
+    21300092: animation_panda_sprite_sheet_42
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -163,10 +167,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_0
       rect:
         serializedVersion: 2
-        x: 213
-        y: 5602
-        width: 268
-        height: 453
+        x: 0
+        y: 5552
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: decadc2d60b4f488b9f46131c0bd4cd5
+      spriteID: 883abd44ab7ba4d4ab256e3518cadb2a
       vertices: []
       indices: 
       edges: []
@@ -183,10 +187,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_1
       rect:
         serializedVersion: 2
-        x: 905
-        y: 5605
-        width: 253
-        height: 447
+        x: 680
+        y: 5552
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,7 +198,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79a13e0a599ac4b589da7b5edf9917c7
+      spriteID: 4470d5132ee6a440cb716c0791a58922
       vertices: []
       indices: 
       edges: []
@@ -203,10 +207,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_2
       rect:
         serializedVersion: 2
-        x: 1584
-        y: 5596
-        width: 251
-        height: 465
+        x: 1360
+        y: 5552
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,7 +218,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebdee7e431170419dbd4ab7147596eb1
+      spriteID: 5a29a0bfd93d64235b6f5395c5b20f01
       vertices: []
       indices: 
       edges: []
@@ -223,10 +227,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_3
       rect:
         serializedVersion: 2
-        x: 2258
-        y: 5599
-        width: 256
-        height: 459
+        x: 2040
+        y: 5552
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7ea9946d4110408e815acb1372dfb14
+      spriteID: cc3163e5a26f149a29ddb9373f832572
       vertices: []
       indices: 
       edges: []
@@ -243,10 +247,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_4
       rect:
         serializedVersion: 2
-        x: 2941
-        y: 5602
-        width: 253
-        height: 453
+        x: 2720
+        y: 5552
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,7 +258,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c06ed05f9b9b6426abfe74bac8e52333
+      spriteID: 4c8b2ff0aefdf49a8946ed7ea9ca03ae
       vertices: []
       indices: 
       edges: []
@@ -263,10 +267,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_5
       rect:
         serializedVersion: 2
-        x: 3617
-        y: 5599
-        width: 257
-        height: 459
+        x: 3400
+        y: 5552
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,7 +278,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1bc743ba963c477688ae37980190d78
+      spriteID: 09ae3b42dfee24f99bd8296223427151
       vertices: []
       indices: 
       edges: []
@@ -283,10 +287,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_6
       rect:
         serializedVersion: 2
-        x: 225
-        y: 5047
-        width: 253
-        height: 456
+        x: 0
+        y: 4997
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,7 +298,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 503ed2960c615403da50bae8c766702a
+      spriteID: a5637fd50d38b4bc08a3c0371a0cf8c4
       vertices: []
       indices: 
       edges: []
@@ -303,10 +307,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_7
       rect:
         serializedVersion: 2
-        x: 902
-        y: 5046
-        width: 256
-        height: 457
+        x: 680
+        y: 4997
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,7 +318,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96606a2c27ebf4345baeb4f9ad06e4ff
+      spriteID: d1b2e9c4274f545ba9e0ede83cf4970f
       vertices: []
       indices: 
       edges: []
@@ -323,10 +327,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_8
       rect:
         serializedVersion: 2
-        x: 1584
-        y: 5041
-        width: 253
-        height: 468
+        x: 1360
+        y: 4997
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,7 +338,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 727cb9b869a4f4369a4ab14a7833e79d
+      spriteID: ce70de132ed7b48058ad11f0f3115b51
       vertices: []
       indices: 
       edges: []
@@ -343,10 +347,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_9
       rect:
         serializedVersion: 2
-        x: 2261
-        y: 5050
-        width: 253
-        height: 447
+        x: 2040
+        y: 4997
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,7 +358,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c28b6fa675a7245cdb23b7bb17a6923a
+      spriteID: 097fde7a5406d49a3a1be5674bc4a071
       vertices: []
       indices: 
       edges: []
@@ -363,10 +367,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_10
       rect:
         serializedVersion: 2
-        x: 2929
-        y: 5047
-        width: 268
-        height: 456
+        x: 2720
+        y: 4997
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,7 +378,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc7a1a564c33483e84f5ea681d8be5a
+      spriteID: ba6b82faf60b946708df14172834d795
       vertices: []
       indices: 
       edges: []
@@ -383,10 +387,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_11
       rect:
         serializedVersion: 2
-        x: 168
-        y: 3938
-        width: 313
-        height: 453
+        x: 0
+        y: 3887
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,7 +398,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b088c48171cac4f6e9d332b929fadf17
+      spriteID: c99637be665bc4ddcaf81c588b93333f
       vertices: []
       indices: 
       edges: []
@@ -403,10 +407,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_12
       rect:
         serializedVersion: 2
-        x: 881
-        y: 3941
-        width: 292
-        height: 453
+        x: 680
+        y: 3887
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,7 +418,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c990d6873e1f4d079108052455e65a2
+      spriteID: 32e51d0d930554e6abd6d627c71dfd23
       vertices: []
       indices: 
       edges: []
@@ -423,10 +427,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_13
       rect:
         serializedVersion: 2
-        x: 1519
-        y: 3947
-        width: 372
-        height: 435
+        x: 1360
+        y: 3887
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,7 +438,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd3394510b284dd186d63cbbf438ad1
+      spriteID: 6e5bf1929939f46b4abf865006b583d1
       vertices: []
       indices: 
       edges: []
@@ -443,10 +447,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_14
       rect:
         serializedVersion: 2
-        x: 2157
-        y: 3970
-        width: 454
-        height: 391
+        x: 2040
+        y: 3887
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,7 +458,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3487d590a9242468280d12da4a0ee3e0
+      spriteID: 599065a8ba7ac43b7b6d42bcc760969c
       vertices: []
       indices: 
       edges: []
@@ -463,10 +467,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_15
       rect:
         serializedVersion: 2
-        x: 2833
-        y: 4003
-        width: 459
-        height: 324
+        x: 2720
+        y: 3887
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,7 +478,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623b1a08141d541598d4d5a62a814bfa
+      spriteID: 5fcf7717c327449c3964ecb8baf43879
       vertices: []
       indices: 
       edges: []
@@ -483,10 +487,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_16
       rect:
         serializedVersion: 2
-        x: 3513
-        y: 3914
-        width: 568
-        height: 301
+        x: 3400
+        y: 3887
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,7 +498,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 052d8c708fa164b219a80b24a51031a1
+      spriteID: 8a8e916a2bd1349b79cc9499649fefd3
       vertices: []
       indices: 
       edges: []
@@ -503,10 +507,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_17
       rect:
         serializedVersion: 2
-        x: 121
-        y: 3344
-        width: 509
-        height: 307
+        x: 0
+        y: 3332
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,7 +518,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f175869a026ee419f9d6b8c752c6b4a9
+      spriteID: 32bd62d797a28432fa0f578eee606555
       vertices: []
       indices: 
       edges: []
@@ -523,10 +527,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_18
       rect:
         serializedVersion: 2
-        x: 798
-        y: 3338
-        width: 523
-        height: 313
+        x: 680
+        y: 3332
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,7 +538,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e7914f5dcb564b02b8d3135d5cd5ad1
+      spriteID: eaed95d47fd03431fb7aa465092d2d4b
       vertices: []
       indices: 
       edges: []
@@ -543,10 +547,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_19
       rect:
         serializedVersion: 2
-        x: 1477
-        y: 3356
-        width: 531
-        height: 295
+        x: 1360
+        y: 3332
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,7 +558,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f6d892253e6841bb8a51fa2b6d340f7
+      spriteID: c6d4980827d8c4045a98137a0fa1763b
       vertices: []
       indices: 
       edges: []
@@ -563,10 +567,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_20
       rect:
         serializedVersion: 2
-        x: 2157
-        y: 3356
-        width: 560
-        height: 295
+        x: 2040
+        y: 3332
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,7 +578,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eddf1aa5ad8344de8930b6bf167dcdf
+      spriteID: ae89329a907a3412697a7f296f2acc8a
       vertices: []
       indices: 
       edges: []
@@ -583,10 +587,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_21
       rect:
         serializedVersion: 2
-        x: 213
-        y: 2271
-        width: 268
-        height: 456
+        x: 0
+        y: 2222
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,7 +598,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62d1602807c064711abc0457f0ce9b4b
+      spriteID: 3180414b94ce84be2a1d79b7c2ec33db
       vertices: []
       indices: 
       edges: []
@@ -603,10 +607,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_22
       rect:
         serializedVersion: 2
-        x: 894
-        y: 2274
-        width: 300
-        height: 459
+        x: 680
+        y: 2222
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,7 +618,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1808673b9f6948f999ced982a6cc050
+      spriteID: cd6d6994034eb4c74ab800e7ceb0c743
       vertices: []
       indices: 
       edges: []
@@ -623,10 +627,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_23
       rect:
         serializedVersion: 2
-        x: 1507
-        y: 2262
-        width: 395
-        height: 477
+        x: 1360
+        y: 2222
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,7 +638,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 265793cc80ed84fe8a45eca59683c0c1
+      spriteID: 9607ff2e92b674cf7b4c024091ed3ade
       vertices: []
       indices: 
       edges: []
@@ -643,10 +647,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_24
       rect:
         serializedVersion: 2
-        x: 2220
-        y: 2256
-        width: 327
-        height: 489
+        x: 2040
+        y: 2222
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,7 +658,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 874b70e70e74846608c7c1693ebe50ef
+      spriteID: 647b8b33b1dfc4fb6a6b7e6c75a2e08a
       vertices: []
       indices: 
       edges: []
@@ -663,10 +667,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_25
       rect:
         serializedVersion: 2
-        x: 2950
-        y: 2274
-        width: 342
-        height: 459
+        x: 2720
+        y: 2222
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,7 +678,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5033e94500a443a4891b9927a332227
+      spriteID: 37fff287640794d6099a0715bde76d2d
       vertices: []
       indices: 
       edges: []
@@ -683,10 +687,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_26
       rect:
         serializedVersion: 2
-        x: 213
-        y: 1162
-        width: 268
-        height: 456
+        x: 0
+        y: 1112
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,7 +698,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6c9c6810d0db41f08fea72574c76897
+      spriteID: d90f83637d3e24647ad46bd412afb67e
       vertices: []
       indices: 
       edges: []
@@ -703,10 +707,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_27
       rect:
         serializedVersion: 2
-        x: 881
-        y: 1161
-        width: 292
-        height: 460
+        x: 680
+        y: 1112
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,7 +718,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6da9ae3b635684e6f8c0b0fcb571710b
+      spriteID: 7a546193805f74b5897e78bd278376c9
       vertices: []
       indices: 
       edges: []
@@ -723,10 +727,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_28
       rect:
         serializedVersion: 2
-        x: 1564
-        y: 1162
-        width: 283
-        height: 456
+        x: 1360
+        y: 1112
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,7 +738,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ab5c868daad5450cb451cc682a727dd
+      spriteID: 48f7851c23c4f4cbe8356dbea37baba7
       vertices: []
       indices: 
       edges: []
@@ -743,10 +747,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_29
       rect:
         serializedVersion: 2
-        x: 2210
-        y: 1162
-        width: 283
-        height: 456
+        x: 2040
+        y: 1112
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,7 +758,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01f275e1d95b249ddbb787698d57a185
+      spriteID: 8ee59aa0c6a25470aa118f27f14a2522
       vertices: []
       indices: 
       edges: []
@@ -763,10 +767,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_30
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 1334
-        width: 12
-        height: 9
+        x: 2720
+        y: 1112
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -774,7 +778,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 093a8573507d44d15b42fb74b59777e3
+      spriteID: 9bb827705d3b24802850ca771c7741fa
       vertices: []
       indices: 
       edges: []
@@ -783,10 +787,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_31
       rect:
         serializedVersion: 2
-        x: 2926
-        y: 1162
-        width: 304
-        height: 456
+        x: 3400
+        y: 1112
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,7 +798,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 305814a85822042e8b6c8a470e8b99ad
+      spriteID: 5bf36675611db43cd8a31273ce52f261
       vertices: []
       indices: 
       edges: []
@@ -803,10 +807,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_32
       rect:
         serializedVersion: 2
-        x: 3576
-        y: 1158
-        width: 384
-        height: 457
+        x: 0
+        y: 557
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -814,7 +818,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 828940a7173c94165b4d5907451640db
+      spriteID: 8f2c891c0172644688aa5cabb683a904
       vertices: []
       indices: 
       edges: []
@@ -823,10 +827,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_33
       rect:
         serializedVersion: 2
-        x: 160
-        y: 592
-        width: 357
-        height: 459
+        x: 680
+        y: 557
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -834,7 +838,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d85b2d4788b8d4026bad5e1022553016
+      spriteID: 28064db89726d485a90fc91bf6a7c5ae
       vertices: []
       indices: 
       edges: []
@@ -843,10 +847,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_34
       rect:
         serializedVersion: 2
-        x: 830
-        y: 571
-        width: 382
-        height: 477
+        x: 1360
+        y: 557
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -854,7 +858,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88ff2caae107d4a7eabe6a86380b76db
+      spriteID: 3c2a2edfc00694960be240c86c6f1983
       vertices: []
       indices: 
       edges: []
@@ -863,10 +867,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_35
       rect:
         serializedVersion: 2
-        x: 1510
-        y: 571
-        width: 378
-        height: 477
+        x: 2040
+        y: 557
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,7 +878,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a40a6cf8dda0425f97977df74b08c49
+      spriteID: 25896e2de15c94fab8caaa9015ec0183
       vertices: []
       indices: 
       edges: []
@@ -883,10 +887,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_36
       rect:
         serializedVersion: 2
-        x: 2151
-        y: 598
-        width: 465
-        height: 471
+        x: 2720
+        y: 557
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -894,7 +898,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22b1056dbdf604d61acc64415f0e225f
+      spriteID: 0b24a4111a1d242cf951a7256a3e0359
       vertices: []
       indices: 
       edges: []
@@ -903,10 +907,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_37
       rect:
         serializedVersion: 2
-        x: 2782
-        y: 563
-        width: 582
-        height: 524
+        x: 3400
+        y: 557
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -914,7 +918,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d46e04088b544b54b40659d6cfc4cbe
+      spriteID: 90932f4b452964c48b6524cc7a7a8530
       vertices: []
       indices: 
       edges: []
@@ -923,10 +927,10 @@ TextureImporter:
       name: animation_panda_sprite_sheet_38
       rect:
         serializedVersion: 2
-        x: 3438
-        y: 556
-        width: 643
-        height: 509
+        x: 0
+        y: 2
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -934,19 +938,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72308bdced58548ce8cd8b69827b14fd
+      spriteID: 29a3fc274bc20417482b975771500b92
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation_panda_sprite_sheet_44
+      name: animation_panda_sprite_sheet_39
       rect:
         serializedVersion: 2
-        x: 102
-        y: 16
-        width: 555
-        height: 462
+        x: 680
+        y: 2
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -954,19 +958,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 249690f595ffe4de0b62319ebb849029
+      spriteID: b333c980302d74b7b9664830b7c6589d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation_panda_sprite_sheet_45
+      name: animation_panda_sprite_sheet_40
       rect:
         serializedVersion: 2
-        x: 842
-        y: 58
-        width: 432
-        height: 438
+        x: 1360
+        y: 2
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,19 +978,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 674ac71b1316a4df8927380d6d5caea5
+      spriteID: b2f9e43ad362e4fba8f7aa09e585f813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation_panda_sprite_sheet_46
+      name: animation_panda_sprite_sheet_41
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 127
-        width: 299
-        height: 301
+        x: 2040
+        y: 2
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -994,19 +998,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4208cf9eff9ef4aa288e61e05718fc80
+      spriteID: a6df30011f7ee4f1cb1e8d8a58d9dfa5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation_panda_sprite_sheet_47
+      name: animation_panda_sprite_sheet_42
       rect:
         serializedVersion: 2
-        x: 2354
-        y: 217
-        width: 121
-        height: 121
+        x: 3400
+        y: 2
+        width: 680
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1014,7 +1018,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e2d20b8375d427b8234f05e26e32c9
+      spriteID: 2b8fd8c5a138e45c59f42c3b32d3139d
       vertices: []
       indices: 
       edges: []
