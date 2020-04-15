@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4769625460663143209}
   - component: {fileID: 5483571632504129775}
   - component: {fileID: 3218686316528412822}
+  - component: {fileID: 114782623686063388}
   m_Layer: 0
   m_Name: CreamTower
   m_TagString: Tower
@@ -87,12 +88,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4134654862805151214}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5fee5f0cae644f658eae9bd8c1b2980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangeRadius: 5
+  rangeRadius: 15
   reloadTime: 3
   projectil: {fileID: 2723219695985226306, guid: f15dda486a29d4931aca03dffccd0f71,
     type: 3}
@@ -101,3 +102,20 @@ MonoBehaviour:
   - {fileID: 21300002, guid: 5e1a99551510245acbcc5af70ca80ef2, type: 3}
   - {fileID: 21300004, guid: 5e1a99551510245acbcc5af70ca80ef2, type: 3}
   isUpgradable: 1
+  initialCost: 15
+  upgradeCost: 30
+  sellCost: 5
+  sellIncrementCost: 0
+  upgradeIncrementCost: 20
+--- !u!114 &114782623686063388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4134654862805151214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8277bcc746c42c6a4cf768ab2c07f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,10 +13,12 @@ public class ProjectileScript : MonoBehaviour
     [Tooltip("Tiempo de vida del projectil en segundos")]
     public float lifeDuraction = 10.0f;
 
+    private Rigidbody2D m_rigidbody;
 
-    // Start is called before the first frame update
     void Start()
     {
+        this.m_rigidbody = GetComponent<Rigidbody2D>();
+
         direction = direction.normalized;
 
         //Rotamos Projectil
@@ -29,9 +31,9 @@ public class ProjectileScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // s = v * t
-        transform.position += speed * direction * Time.deltaTime;
+        this.m_rigidbody.MovePosition(transform.position + (direction * Time.fixedDeltaTime * this.speed));
     }
 }

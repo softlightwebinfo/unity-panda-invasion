@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 816393418097344531}
   - component: {fileID: 4004430183768659164}
   - component: {fileID: 1140975090842300285}
+  - component: {fileID: 114011832016303142}
   m_Layer: 0
-  m_Name: cupcake_tower_sheet-01_6
+  m_Name: LemonTower
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,12 +88,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700194398577754701}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5fee5f0cae644f658eae9bd8c1b2980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangeRadius: 8
+  rangeRadius: 30
   reloadTime: 5
   projectil: {fileID: 725380299193012001, guid: 4687b3970e02e4767bf4826b1b02b1aa,
     type: 3}
@@ -101,3 +102,20 @@ MonoBehaviour:
   - {fileID: 21300014, guid: 5e1a99551510245acbcc5af70ca80ef2, type: 3}
   - {fileID: 21300016, guid: 5e1a99551510245acbcc5af70ca80ef2, type: 3}
   isUpgradable: 1
+  initialCost: 50
+  upgradeCost: 50
+  sellCost: 30
+  sellIncrementCost: 20
+  upgradeIncrementCost: 30
+--- !u!114 &114011832016303142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700194398577754701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8277bcc746c42c6a4cf768ab2c07f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

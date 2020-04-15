@@ -8,7 +8,7 @@ public class SugarMeterScript : MonoBehaviour
     // Variable que indica donde se mostrara los puntos
     private Text sugarMeter;
     // Variable que guarda el numero de puntos
-    private int sugarScore;
+    private int sugarScore = 50;
     private void Start()
     {
         this.sugarMeter = this.GetComponent<Text>();

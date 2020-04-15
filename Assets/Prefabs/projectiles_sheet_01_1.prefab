@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3247434425365329291}
   - component: {fileID: 8780258075720939630}
   - component: {fileID: 1373387838215521585}
+  - component: {fileID: 50630390675746852}
+  - component: {fileID: 6010970092416235634}
   m_Layer: 0
   m_Name: projectiles_sheet_01_1
   m_TagString: Projectile
@@ -92,7 +94,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d381dd15da14548b33e5d951bbb0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
-  speed: 1
-  direction: {x: 0, y: 0, z: 0}
+  damage: 50
+  speed: 20
+  direction: {x: 0.8736476, y: 0.38548735, z: 0}
   lifeDuraction: 10
+--- !u!50 &50630390675746852
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725380299193012001}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!70 &6010970092416235634
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725380299193012001}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.14, y: 3.17}
+  m_Direction: 0

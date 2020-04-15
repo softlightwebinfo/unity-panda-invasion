@@ -22,6 +22,17 @@ public class TowerScript : MonoBehaviour
     [Tooltip("Variables para saber si una torreta se puede actualizar")]
     public bool isUpgradable = true;
 
+    [Header("Economia de la torreta")]
+    [Tooltip("Precio de comprar la torreta")]
+    public int initialCost;
+    [Tooltip("Precio de mejorar la torreta de nivel")]
+    public int upgradeCost;
+    [Tooltip("Precio de venta de la torreta")]
+    public int sellCost;
+    [Tooltip("Precio de incremento de venta")]
+    public int sellIncrementCost;
+    [Tooltip("Precio de incremento de mejora")]
+    public int upgradeIncrementCost;
 
     public int upgradeLevel
     {
@@ -94,6 +105,23 @@ public class TowerScript : MonoBehaviour
 
         rangeRadius += 1f;
         reloadTime -= 0.5f;
+
+        // Subimos los precios de mejora y de venta
+        sellCost += sellIncrementCost;
+        upgradeCost += upgradeIncrementCost;
+
         this.GetComponent<SpriteRenderer>().sprite = this.upgradeSprites[this.upgradeLevel];
+    }
+
+    private void OnMouseDown()
+    {
+        // Cuando el usuario clique en una torreta, esta se convierte en la torrecta actual
+        TradeCupcakeTower.SetActiveTower(this);
+        Debug.Log("He seleccionado una torreta");
+    }
+
+    public void DestroyTower()
+    {
+        Destroy(this.gameObject);
     }
 }

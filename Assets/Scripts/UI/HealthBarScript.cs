@@ -31,7 +31,6 @@ public class HealthBarScript : MonoBehaviour
             this.UpdateHealthBar();
             return false;
         }
-        currentHealth = 0;
         UpdateHealthBar();
         return true;
     }

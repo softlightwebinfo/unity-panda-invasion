@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 284881905714221003}
   - component: {fileID: 5141659395273518535}
   - component: {fileID: 5823279159662414412}
+  - component: {fileID: 114115860047543960}
   m_Layer: 0
   m_Name: ChocolateTower
   m_TagString: Tower
@@ -87,12 +88,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2554565644066736089}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5fee5f0cae644f658eae9bd8c1b2980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangeRadius: 4
+  rangeRadius: 10
   reloadTime: 2
   projectil: {fileID: 3523560479090328809, guid: 862626249bc6642f3953f2aba54e8d5c,
     type: 3}
@@ -101,3 +102,20 @@ MonoBehaviour:
   - {fileID: 21300008, guid: 5e1a99551510245acbcc5af70ca80ef2, type: 3}
   - {fileID: 21300010, guid: 5e1a99551510245acbcc5af70ca80ef2, type: 3}
   isUpgradable: 1
+  initialCost: 10
+  upgradeCost: 15
+  sellCost: 5
+  sellIncrementCost: 10
+  upgradeIncrementCost: 10
+--- !u!114 &114115860047543960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2554565644066736089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8277bcc746c42c6a4cf768ab2c07f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

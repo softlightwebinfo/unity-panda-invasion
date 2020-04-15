@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 365107347385303741}
   - component: {fileID: 8850686122849579309}
   - component: {fileID: 5695029109549146427}
+  - component: {fileID: 50087012561191738}
+  - component: {fileID: 8269944619363901080}
   m_Layer: 0
   m_Name: projectiles_sheet_01_3
   m_TagString: Projectile
@@ -92,7 +94,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d381dd15da14548b33e5d951bbb0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
-  speed: 1
+  damage: 50
+  speed: 100
   direction: {x: 0, y: 0, z: 0}
   lifeDuraction: 10
+--- !u!50 &50087012561191738
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3864028933391516825}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &8269944619363901080
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3864028933391516825}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.29673398, y: -0.8054222}
+  serializedVersion: 2
+  m_Radius: 0.79007614
