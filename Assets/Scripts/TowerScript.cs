@@ -34,6 +34,9 @@ public class TowerScript : MonoBehaviour
     [Tooltip("Precio de incremento de mejora")]
     public int upgradeIncrementCost;
 
+    [Tooltip("Game objects de los projectiles")]
+    public GameObject[] projectilePrefabs;
+
     public int upgradeLevel
     {
         get { return _upgradeLevel; }
@@ -110,6 +113,7 @@ public class TowerScript : MonoBehaviour
         upgradeCost += upgradeIncrementCost;
 
         this.GetComponent<SpriteRenderer>().sprite = this.upgradeSprites[this.upgradeLevel];
+        this.projectil = projectilePrefabs[upgradeLevel];
     }
 
     private void OnMouseDown()

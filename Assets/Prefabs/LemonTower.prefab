@@ -93,9 +93,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5fee5f0cae644f658eae9bd8c1b2980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangeRadius: 30
+  rangeRadius: 8
   reloadTime: 5
-  projectil: {fileID: 725380299193012001, guid: 4687b3970e02e4767bf4826b1b02b1aa,
+  projectil: {fileID: 7096299704500049099, guid: 5f31d2f3dfe2140dc9bbf6fd12724560,
     type: 3}
   upgradeSprites:
   - {fileID: 21300012, guid: 5e1a99551510245acbcc5af70ca80ef2, type: 3}
@@ -106,7 +106,11 @@ MonoBehaviour:
   upgradeCost: 50
   sellCost: 30
   sellIncrementCost: 20
-  upgradeIncrementCost: 30
+  upgradeIncrementCost: 140
+  projectilePrefabs:
+  - {fileID: 7096299704500049099, guid: 5f31d2f3dfe2140dc9bbf6fd12724560, type: 3}
+  - {fileID: 725380299193012001, guid: 4687b3970e02e4767bf4826b1b02b1aa, type: 3}
+  - {fileID: 3237005206169174157, guid: 6cd0cf1291b844c06b30d0de606f04e8, type: 3}
 --- !u!114 &114011832016303142
 MonoBehaviour:
   m_ObjectHideFlags: 0

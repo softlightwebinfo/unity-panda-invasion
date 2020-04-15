@@ -115,8 +115,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  speed: 10
-  cakeEatenPerBite: 10
+  speed: 5
+  cakeEatenPerBite: 5
 --- !u!50 &449253504
 Rigidbody2D:
   serializedVersion: 4

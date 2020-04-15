@@ -106,7 +106,11 @@ MonoBehaviour:
   upgradeCost: 15
   sellCost: 5
   sellIncrementCost: 10
-  upgradeIncrementCost: 10
+  upgradeIncrementCost: 50
+  projectilePrefabs:
+  - {fileID: 3523560479090328809, guid: 862626249bc6642f3953f2aba54e8d5c, type: 3}
+  - {fileID: 5816510767602475220, guid: 5164447f269a94c1a82f344e1758066a, type: 3}
+  - {fileID: 3864028933391516825, guid: 1375e100d1289473b8bd69eccd8d76d4, type: 3}
 --- !u!114 &114115860047543960
 MonoBehaviour:
   m_ObjectHideFlags: 0

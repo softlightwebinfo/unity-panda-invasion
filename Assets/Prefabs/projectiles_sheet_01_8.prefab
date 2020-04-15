@@ -95,9 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 50
-  speed: 100
+  speed: 10
   direction: {x: 0, y: 0, z: 0}
-  lifeDuraction: 10
+  lifeDuration: 10
 --- !u!50 &50160684304882364
 Rigidbody2D:
   serializedVersion: 4
