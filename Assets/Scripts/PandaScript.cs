@@ -23,7 +23,7 @@ public class PandaScript : MonoBehaviour
     private const float waypointThreshold = 0.001f;
     private Waypoint currentWaypoint;
 
-    private bool isEating = false;
+    private bool isDead = false;
 
     private void Start()
     {
@@ -39,7 +39,9 @@ public class PandaScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!this.currentWaypoint && !isEating)
+        if (this.isDead) return;
+
+        if (!this.currentWaypoint && !isDead)
         {
             this.Eat();
             return;
@@ -74,23 +76,27 @@ public class PandaScript : MonoBehaviour
 
     private void Hit(float damage)
     {
+        if (this.isDead) return;
         // Resto el daño de mi vida actual
         this.health -= damage;
 
         if (this.health > 0)
         {
             this.animator.SetTrigger(this.animatorHitTriggerHash);
+            gameManager.AddSugarHitEnemy();
             return;
         }
+        this.isDead = true;
+        this.speed = -1;
         this.animator.SetTrigger(this.animatorDieTriggerHash);
-
+        gameManager.AddSugarDieEnemy();
         gameManager.OnMoreEnemyInHell();
     }
 
     private void Eat()
     {
         this.animator.SetTrigger(this.animatorEatTriggerHash);
-        isEating = true;
+        isDead = true;
         gameManager.BiteTheCake(cakeEatenPerBite);
     }
 

@@ -45,8 +45,6 @@ public class TowerScript : MonoBehaviour
     {
         if (this.timeSinceLastShot >= this.reloadTime)
         {
-            // Codigo de disparar
-            this.timeSinceLastShot = 0;
             // Encontrar todos los gameObject que tengan un collider dentro de mi rango de disparo
             // OverlapCircleAll -> desde donde estoy crea un circulo con un rango y traeme todos los Colliders que estan dentro
             Collider2D[] hitColliders = Physics2D.OverlapCircleAll(this.transform.position, this.rangeRadius);
@@ -81,7 +79,8 @@ public class TowerScript : MonoBehaviour
 
                 GameObject projectile = GameObject.Instantiate(this.projectil, this.transform.position, Quaternion.identity) as GameObject;
                 projectil.GetComponent<ProjectileScript>().direction = direction;
-
+                // Codigo de disparar
+                this.timeSinceLastShot = 0;
             }
         }
 

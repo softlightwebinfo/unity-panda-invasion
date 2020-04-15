@@ -75,21 +75,34 @@ public class GameManager : MonoBehaviour
     public void OnMoreEnemyInHell()
     {
         this.numberOfEnemiesToDefeat--;
+    }
+
+    public void AddSugarEatEnemy()
+    {
         sugarMeter.AddSugar(5);
     }
 
+    public void AddSugarHitEnemy()
+    {
+        sugarMeter.AddSugar(7);
+    }
+
+    public void AddSugarDieEnemy()
+    {
+        sugarMeter.AddSugar(10);
+    }
     // Funcion que daña la vida del jugador cuando el panda alcanza la tarta
     // Monitorizara ademas si todavia queda vida y si no se nos agoto,
     // llamara al game over con el parametro has hanado a FALSE
     public void BiteTheCake(int damage)
     {
         bool isCakeAllEaten = this.playerHealth.ApplyDamage(damage);
-        Debug.Log(isCakeAllEaten);
         if (isCakeAllEaten)
         {
             this.GameOver(false);
         }
 
+        this.AddSugarEatEnemy();
         // Como hay un panda menos, lo notificamos al Game Manager
         this.OnMoreEnemyInHell();
     }
